@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <FxCompile Include="effect.fx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FinalSimulator.cpp" />
+    <ClCompile Include="MassSpringSystem.cpp" />
+    <ClCompile Include="MassSpringSystemSimulator.cpp" />
+    <ClCompile Include="RigidBodySystem.cpp" />
+    <ClCompile Include="RigidBodySystemSimulator.cpp" />
+    <ClCompile Include="TemplateSimulator.cpp" />
+    <ClCompile Include="util\FFmpeg.cpp" />
+    <ClCompile Include="util\util.cpp" />
+    <ClCompile Include="MassPoint.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Spring.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+    <ClCompile Include="Sling.cpp">
+      <Filter>Types</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Case.h" />
+    <ClInclude Include="collisionDetect.h" />
+    <ClInclude Include="DrawingUtilitiesClass.h" />
+    <ClInclude Include="FinalSimulator.h" />
+    <ClInclude Include="MassSpringSystem.h" />
+    <ClInclude Include="MassSpringSystemSimulator.h" />
+    <ClInclude Include="RigidBodySystem.h" />
+    <ClInclude Include="RigidBodySystemSimulator.h" />
+    <ClInclude Include="Simulator.h" />
+    <ClInclude Include="TemplateSimulator.h" />
+    <ClInclude Include="util\FFmpeg.h" />
+    <ClInclude Include="util\matrixbase.h" />
+    <ClInclude Include="util\quaternion.h" />
+    <ClInclude Include="util\timer.h" />
+    <ClInclude Include="util\util.h" />
+    <ClInclude Include="util\vectorbase.h" />
+    <ClInclude Include="MassPoint.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Spring.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Sling.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+    <ClInclude Include="Rigidbody.h">
+      <Filter>Types</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Types">
+      <UniqueIdentifier>{981ae54c-52c0-4538-92a7-b760aaf33776}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
